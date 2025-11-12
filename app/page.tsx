@@ -17,6 +17,7 @@ export default async function Page() {
 }
 async function DynamicAPI() {
   // dynamic APIs like cookies, headers, etc.
+  // Remove me to see the issue go away.
   await cookies()
 
   return <p>hello world</p>
